@@ -463,6 +463,7 @@ message PrepareFlashbackToVersionRequest {
     Context context = 1;
     bytes start_key = 2;
     bytes end_key = 3;
+    uint64 version = 4;
 }
 
 message PrepareFlashbackToVersionResponse {

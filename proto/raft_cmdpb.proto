@@ -197,7 +197,9 @@ message PrepareMergeRequest {
 
 message PrepareMergeResponse {}
 
-message PrepareFlashbackRequest {}
+message PrepareFlashbackRequest {
+    uint64 version = 1;
+}
 
 message PrepareFlashbackResponse {}
 
