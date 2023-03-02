@@ -80,6 +80,7 @@ message TokenBucketRequest {
     }
     // Aggregate statistics in group level.
     Consumption consumption_since_last_request = 4;
+    double consumption_token = 5;  
 }
 
 message TokenBucketsResponse {

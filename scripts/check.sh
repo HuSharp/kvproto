@@ -11,6 +11,7 @@ check_protoc_version() {
     return 1
 }
 
+# check for proto.lock
 check-protos-compatible() {
     GOPATH=$(go env GOPATH)
     if [ -z $GOPATH ]; then
